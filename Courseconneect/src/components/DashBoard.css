@@ -1,0 +1,68 @@
+/* Basic styles for DashBoard component */
+/* Dashboard Container */
+.db-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9fafb; /* Light background */
+}
+
+/* Header */
+.header {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #4f46e5; /* Indigo */
+    margin-bottom: 10px;
+}
+
+/* Navigation Buttons */
+.reg-btns {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.reg-btns .btn {
+    background-color: #4f46e5; /* Indigo */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.reg-btns .btn:hover {
+    background-color: #4338ca; /* Slightly darker Indigo */
+}
+
+/* Main Content */
+.content {
+    text-align: center;
+    margin-top: 30px;
+    max-width: 600px;
+}
+
+.content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #111827; /* Dark text */
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 16px;
+    color: #6b7280; /* Gray text */
+}
